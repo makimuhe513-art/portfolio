@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Muhammed Kedir — Computer Science student and aspiring software developer based in Gondar, Ethiopia." />
+  <meta name="theme-color" content="#08090d" />
+  <title>Muhammed Kedir — Student & Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <canvas id="lightning" aria-hidden="true"></canvas>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Muhammed Kedir home"><span class="brand-mark">M</span><span>MK<span class="brand-dot">.</span></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav" id="nav">
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#education">Education</a><a href="#learning">Learning</a>
+      <a class="nav-contact" href="#contact">Let's talk <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="status-dot"></span> STUDENT • ASPIRING DEVELOPER • GONDAR, ETHIOPIA</p>
+        <h1>Building ideas<br>into <span class="accent-text">digital</span><br>experiences<span class="accent-text">.</span></h1>
+        <p class="hero-intro">I'm <strong>Muhammed Kedir</strong> — a student exploring computer science, software development, and the craft of building useful things for the web.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span>↘</span></a>
+          <a class="text-link" href="#contact">Get in touch <span>↗</span></a>
+        </div>
+        <div class="hero-meta"><span>01 / 04</span><span class="meta-line"></span><span>CURIOUS BY NATURE. BUILT TO LEARN.</span></div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="portrait-frame">
+          <div class="portrait-arc"></div>
+          <img class="portrait-photo" src="assets/muhammed-kedir.jpg" alt="Portrait of Muhammed Kedir" />
+          <div class="portrait-caption"><span class="caption-dot"></span> OPEN TO LEARNING & COLLABORATION</div>
+        </div>
+        <div class="floating-card code-card"><span class="code-top"><i></i><i></i><i></i></span><code><b>const</b> future = <em>"developer"</em>;<br><b>while</b> (learning) {<br>&nbsp; build();<br>}</code></div>
+        <div class="floating-card location-card"><span class="pin">⌖</span><div><b>Gondar</b><small>Ethiopia · EAT</small></div></div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Technologies"><div class="ticker-track"><span>HTML</span><b>✳</b><span>CSS</span><b>✳</b><span>JAVASCRIPT</span><b>✳</b><span>PYTHON</span><b>✳</b><span>C / C++</span><b>✳</b><span>CREATIVE THINKING</span><b>✳</b><span>HTML</span><b>✳</b><span>CSS</span><b>✳</b><span>JAVASCRIPT</span><b>✳</b><span>PYTHON</span><b>✳</b><span>C / C++</span><b>✳</b><span>CREATIVE THINKING</span><b>✳</b></div></section>
+
+    <section class="content-section section-wrap" id="about">
+      <div class="section-heading reveal"><p class="eyebrow">01 — A LITTLE ABOUT ME</p><h2>Curiosity is my<br><span class="muted">starting point.</span></h2></div>
+      <div class="about-grid">
+        <p class="about-lead reveal">I’m at the beginning of my journey in technology, learning how ideas become real, working software.</p>
+        <div class="about-body reveal"><p>I’m Muhammed, a student based in Gondar, Ethiopia, with an interest in computer science and software engineering. I enjoy learning programming fundamentals, experimenting with web technologies, and improving through hands-on projects.</p><p>This portfolio is part of that journey: a place to share what I’m learning, document what I build, and connect with people who enjoy creating thoughtful digital experiences.</p><div class="signature">Always learning<span>✳</span></div></div>
+      </div>
+    </section>
+
+    <section class="content-section section-wrap" id="skills">
+      <div class="section-heading reveal"><p class="eyebrow">02 — WHAT I'M LEARNING</p><h2>Tools in my<br><span class="muted">developer toolkit.</span></h2></div>
+      <div class="skills-grid reveal">
+        <article class="skill-card"><span class="skill-number">01</span><div class="skill-symbol">&lt;/&gt;</div><h3>Web foundations</h3><p>Building page structure and styling responsive interfaces.</p><div class="tags"><span>HTML</span><span>CSS</span></div></article>
+        <article class="skill-card"><span class="skill-number">02</span><div class="skill-symbol">{ }</div><h3>Programming</h3><p>Practicing logic, problem solving, and programming fundamentals.</p><div class="tags"><span>Python</span><span>JavaScript</span><span>C++</span></div></article>
+        <article class="skill-card"><span class="skill-number">03</span><div class="skill-symbol">⌘</div><h3>Building habits</h3><p>Learning to organize code, debug issues, and improve through iteration.</p><div class="tags"><span>Git basics</span><span>Debugging</span><span>Responsive design</span></div></article>
+      </div>
+      <p class="small-note">These tags describe technologies I am learning and practicing; they are not formal proficiency ratings.</p>
+    </section>
+
+    <section class="content-section section-wrap" id="projects">
+      <div class="section-heading project-heading reveal"><div><p class="eyebrow">03 — SELECTED WORK</p><h2>Learning by<br><span class="muted">making things.</span></h2></div><span class="project-count">01 — 03</span></div>
+      <div class="project-list">
+        <article class="project-card reveal"><div class="project-visual project-visual-one"><span class="visual-index">01</span><div class="mini-window"><div class="mini-bar"><i></i><i></i><i></i></div><div class="mini-content"><span class="mini-line long"></span><span class="mini-line"></span><span class="mini-block"></span></div></div><span class="visual-label">PERSONAL / WEB</span></div><div class="project-info"><p class="eyebrow">PERSONAL PROJECT · IN PROGRESS</p><h3>Personal Portfolio</h3><p>A responsive personal website designed to introduce me, highlight my learning journey, and showcase future projects.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><span class="project-status"><i></i> Portfolio foundation</span></div><span class="project-arrow">↗</span></article>
+        <article class="project-card reveal"><div class="project-visual project-visual-two"><span class="visual-index">02</span><div class="coming-symbol">＋</div><span class="visual-label">NEXT BUILD</span></div><div class="project-info"><p class="eyebrow">FUTURE PROJECT</p><h3>Coming soon</h3><p>A space reserved for the next project. It will be added here when the build is complete.</p><div class="tags"><span>To be decided</span></div><span class="project-status"><i></i> Planned</span></div><span class="project-arrow">↗</span></article>
+        <article class="project-card reveal"><div class="project-visual project-visual-three"><span class="visual-index">03</span><div class="coming-symbol">✳</div><span class="visual-label">EXPERIMENTS</span></div><div class="project-info"><p class="eyebrow">FUTURE PROJECT</p><h3>More experiments</h3><p>Small coding exercises and experiments will find a home here as I keep practicing.</p><div class="tags"><span>Learning in public</span></div><span class="project-status"><i></i> Planned</span></div><span class="project-arrow">↗</span></article>
+      </div>
+    </section>
+
+    <section class="content-section section-wrap" id="education">
+      <div class="section-heading reveal"><p class="eyebrow">04 — LEARNING JOURNEY</p><h2>Foundations for<br><span class="muted">what comes next.</span></h2></div>
+      <div class="education-card reveal"><div class="edu-icon">✳</div><div><p class="eyebrow">CURRENT LEARNING</p><h3>King's Academy</h3><p>Student · Gondar, Ethiopia</p><p class="edu-detail">Developing an academic foundation while exploring computer science, software engineering, programming fundamentals, and web development.</p></div><span class="edu-date">IN PROGRESS</span></div>
+    </section>
+
+    <section class="content-section section-wrap" id="learning">
+      <div class="section-heading reveal"><p class="eyebrow">05 — CONTINUOUS DEVELOPMENT</p><h2>Learning today.<br><span class="muted">Building for tomorrow.</span></h2></div>
+      <div class="education-card reveal">
+        <div class="edu-icon">✳</div>
+        <div><p class="eyebrow">SELF-DIRECTED LEARNING</p><h3>Development roadmap</h3>
+          <p class="edu-detail">Current learning areas: HTML, CSS, JavaScript, Python, and C++. This section can be updated with real course completions and certificates as they are earned.</p>
+        </div>
+        <span class="edu-date">ONGOING</span>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact"><div class="section-wrap contact-inner reveal"><p class="eyebrow">05 — HAVE A QUESTION OR AN IDEA?</p><h2>Let's make<br>something <span class="accent-text">meaningful.</span></h2><p>I'm open to connecting, learning from others, and exploring opportunities to grow.</p><a class="button button-primary" href="mailto:muhammedkedir2320@gmail.com">Email me <span>↗</span></a><div class="contact-email">muhammedkedir2320@gmail.com</div></div></section>
+  </main>
+
+  <footer class="footer section-wrap"><a class="brand" href="#home"><span class="brand-mark">M</span><span>MK<span class="brand-dot">.</span></span></a><span>Designed & built as a learning project.</span><span>© <span id="year"></span> MUHAMMED KEDIR</span></footer>
+  <button class="back-top" id="backTop" aria-label="Back to top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
